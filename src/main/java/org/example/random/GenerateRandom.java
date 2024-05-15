@@ -9,7 +9,7 @@ public class GenerateRandom {
 
         /**
          * JDK17에 새롭게 추가된 난수 생성기 모두 출력
-         * @description 크게 세가지 그룹으로 나뉜다 LXM, Xoroshiro, Xoshiro
+         * 크게 세가지 그룹으로 나뉜다 LXM, Xoroshiro, Xoshiro
          */
         RandomGeneratorFactory.all()
                 .sorted(Comparator.comparing(RandomGeneratorFactory::name))
@@ -20,14 +20,16 @@ public class GenerateRandom {
 
         /**
          * 특정 난수 생성기를 생성하는 방법
-         * <pre> {@code RandomGenerator randomGenerator = RandomGenerator.of("생성할 난수 생성기 이름");
-         * } </pre>
+         * <pre>{@code
+         *  RandomGenerator randomGenerator = RandomGenerator.of("생성할 난수 생성기 이름");
+         * }</pre>
          * 정확한 난수 생성기 이름을 입력하지 않을 시 IllegalArgumentException 발생
          *
          * ps. 현재 Default 난수 생성기는 LXM 그룹의 L32X64MixRandom 난수 생성기다.
          * 기본 난수 생성기를 사용하기 위해선 아래의 코드를 입력하면 된다.
-         * <pre> {@code RandomGenerator randomGenerator = RandomGenerator.getDefault();
-         * } </pre>
+         * <pre>{@code
+         *  RandomGenerator randomGenerator = RandomGenerator.getDefault();
+         * }</pre>
          * @exception IllegalArgumentException
          */
         RandomGenerator randomGenerator = RandomGenerator.of("Xoshiro256PlusPlus");

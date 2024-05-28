@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e85cd34-4e19-4231-a99e-d390186553f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/random/GenerateRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/Arsenal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/Chelsea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/EPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/LiverPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/ManchesterCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/ManchesterUnited.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/seald/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,8 +48,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar:///Library/Java/JavaVirtualMachines/liberica-jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/util/random/RandomGenerator.java" root0="SKIP_INSPECTION" />
-    <setting file="jar:///Library/Java/JavaVirtualMachines/liberica-jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/util/random/RandomGeneratorFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/liberica-jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/util/random/RandomGenerator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/liberica-jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/util/random/RandomGeneratorFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/liberica-jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/DoubleStream.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/liberica-jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -124,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715749184582</updated>
       <workItem from="1715749187675" duration="78000" />
-      <workItem from="1715749288033" duration="3792000" />
+      <workItem from="1715749288033" duration="7187000" />
     </task>
     <servers />
   </component>
